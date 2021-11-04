@@ -30,12 +30,12 @@ nav {
 .divWithMain {
     display: flex;
     width: 95%;
-    height: 47rem;
+    height: 39rem;
     padding-left: 1rem;
 }
 .main {
     display: flex;
-    height:42rem;
+    height:39rem;
     width: 35rem;
     padding-left: 92px;
     flex-direction: column;
@@ -45,7 +45,7 @@ nav {
 }
 .pictureDiv {
     display: flex;
-    width: 20rem;
+    width: 22rem;
     height:42rem;
     padding-left: 0%;
     justify-content: space-around;
@@ -72,7 +72,7 @@ nav {
 footer {
     display: flex;
     width: 100%;
-    height: 8rem;
+    height: 7rem;
     justify-content:space-around;
     align-items: center;
 }
@@ -94,9 +94,11 @@ footer li {
 }
 .circle {
     display: flex;
-    width: 20rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 
 }
 .projectBoxStrips {
@@ -148,13 +150,16 @@ footer li {
 .resumeMain {
     display: flex;
     width: 100%;
-    height: 90rem;
+    height: 133rem;
     justify-content: space-around;
 }
 .resumePic {
     display: flex;
-    width: 40%;
-    height: 65rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 1464px;
+    height: 2050px;
     padding:0%;
     border-radius: 8px;
 }
@@ -197,6 +202,8 @@ footer li {
     background-image: url(/images/LinkedInIcon.png);
     background-size:contain;
     background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #253031f3;
     border-radius: 50%;
 }
 .socialsG {
@@ -206,6 +213,8 @@ footer li {
     background-image: url(/images/githubIcon.png);
     background-size:contain;
     background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #253031f3;
     border-radius: 50%;
 }
 .socialsT {
@@ -215,6 +224,8 @@ footer li {
     background-image: url(/images/twitterIcon.png);
     background-size:contain;
     background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #253031f3;
     border-radius: 50%;
 }
 .socialsF {
@@ -224,5 +235,7 @@ footer li {
     background-image: url(/images/facebookIcon.png);
     background-size:contain;
     background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #253031f3;
     border-radius: 50%;
 }
