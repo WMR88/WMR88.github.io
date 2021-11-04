@@ -98,7 +98,7 @@ footer li {
 .projectBoxes3 {
     background-color: #253031e0;
     border-radius: 10%;
-    border: 20px solid #000;
+    border: 2px solid #000;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
 }
 div a {
@@ -118,7 +118,17 @@ div a {
     background-repeat: no-repeat;
 }
 .screenShots2 {
-    background-image: url(/images/ParkReviewPic.JPG);
+    background-image: url(/images/ConusCapture.JPG);
+    background-repeat: no-repeat;
+  
+}
+.screenShots3 {
+    background-image: url(/images/conusCapture2.JPG);
+    background-repeat: no-repeat;
+  
+}
+.screenShots4 {
+    background-image: url(/images/MpCapture.JPG);
     background-repeat: no-repeat;
   
 }

@@ -195,6 +195,18 @@ footer li {
     align-items: center;
     padding-bottom: 4rem;
 }
+
+.screenShots4 {
+
+    display: flex;
+    width: 85%;
+    height: 70rem;
+    padding-top: 4rem;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    padding-bottom: 4rem;
+}
 .socialsL {
     display: flex;
     width: 6rem;
