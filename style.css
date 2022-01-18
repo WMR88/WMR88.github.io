@@ -235,8 +235,7 @@
     display: flex;
     width: 7rem;
     height: 7rem;
-
-    background-image: url("/images/git-icon.JPG");
+    background-image: url("./images/git-icon.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     border-style: solid;
