@@ -236,7 +236,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/git-icon.JPG);
+    background-image: url("./images/git-icon.JPG");
     background-size: contain;
     background-repeat: no-repeat;
     border-style: solid;
@@ -253,7 +253,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/javascript-icon.jpg);
+    background-image: url("./images/javascript-icon.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     border-style: solid;
@@ -270,7 +270,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/java-icon.webp);
+    background-image: url("./images/java-icon.webp");
     background-size:cover;
     background-repeat: no-repeat;
 
@@ -287,7 +287,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/spring_icon.png);
+    background-image: url("./images/spring_icon.png");
     background-size:cover;
     background-repeat: no-repeat;
     border-style: solid;
@@ -304,7 +304,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/vscode-icon.png);
+    background-image: url("./images/vscode-icon.png");
     background-size:cover;
     background-repeat: no-repeat;
 
@@ -321,7 +321,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/substance\ icon.png);
+    background-image: url("./images/substance icon.png");
     background-size:cover;
     background-repeat: no-repeat;
     border-style: solid;
@@ -338,7 +338,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/blender-icon.jpg);
+    background-image: url("./images/blender-icon.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     border-style: solid;
@@ -355,7 +355,7 @@
     width: 7rem;
     height: 7rem;
 
-    background-image: url(./Images/cpp-icon.jpg);
+    background-image: url("./images/cpp-icon.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     border-style: solid;
@@ -387,7 +387,7 @@ footer {
     height: 7rem;
     margin-right: 3rem;
 
-    background-image: url(./Images/LinkedInIcon.png);
+    background-image: url("./images/LinkedInIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
     border-style: solid;
@@ -406,7 +406,7 @@ footer {
     height: 7rem;
     margin-right: 3rem;
 
-    background-image: url(./Images/githubIcon.png);
+    background-image: url("./images/githubIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
     border-style: solid;
@@ -425,7 +425,7 @@ footer {
     height: 7rem;
     margin-right: 10.5rem;
 
-    background-image: url(./Images/FccIcon.png);
+    background-image: url("./images/FccIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
     border-style: solid;
@@ -467,7 +467,7 @@ footer {
     margin-top: 1rem;
     margin-left: 1rem;
 
-    background-image: url(./Images/newresumepng.png);
+    background-image: url("./images/newresumepng.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
