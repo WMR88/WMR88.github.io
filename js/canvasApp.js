@@ -21,13 +21,14 @@ window.addEventListener("mousemove",
 )
 
 class Particle {
-    constructor(x, y, directionX, directionY, size, color) {
+    constructor(x, y, directionX, directionY, size, color, tag) {
         this.x = x;
         this.y = y;
         this.directionX = directionX;
         this.directionY = directionY;
         this.size = size;
         this.color = color;
+        this.tag = Math.floor(Math.random(10) * 100);
     }
 
     draw()  {
