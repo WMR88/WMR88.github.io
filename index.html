@@ -4,54 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <title>William Robson</title>
+    <title>Home</title>
 </head>
 <body>
-    <canvas id="canvas" width="100" height="100"></canvas>
-    <script src="./js/canvasApp.js"></script>
-
-    <div class="topNavContainer">
-        <div class="topNavName">William Robson</div>
-        <div class = buttonContainer>
-            <a href="./index.html" class="topNavButton">Home</a>
-            <a href="./resumePage.html" class="topNavButton">Resume</a>
-            <a href="./projects.html"  class="topNavButton">Projects</a>
-            <div id="clock">8:10:45</div><script src="./js/clock.js"></script>
+    <canvas id="canvas"></canvas>
+    <nav>
+        <H1>William M. Robson</H1>
+        <div id="navLinkDiv">
+            <a href="/index.html">Home</a>
+            <p onclick="window.open('/assets/Resume.pdf')">Download Resume</p>
         </div>
+        <p id="thinkBold">~ "Think Bold"</p>
+    </nav>
+    <div id="middleBlockContainer">
+
+        <div id="techInventoryDiv">
+            <a href="./moreInfo.html">
+                <h2 id="cardHeaders">Tech Inventory</h2>
+                <p id="cardParagraph">Java Core<br>JavaScript<br>SQL<br>HTML<br>CSS5<br>Node.js<br>Spring Boot<br>MY SQL<br><br>~Click For Full List</p>
+            </a>
+        </div>
+        <div id="projectsDiv">
+            <a href="./moreInfo.html">
+                <h2 id="cardHeaders">Projects</h2>
+                <p id="cardParagraph">Generative NFT Project<br><br>Resturaunt Point Of Sales Application<br><br>Conus Nation Park<br>Review Site<br><br>~Click For Full List</p>
+            </a>
+        </div>
+        <div id="statementDiv">
+            <a href="./moreInfo.html">
+                <h2 id="cardHeaders">Statement</h2>
+                <p id="cardParagraph">"Full Stack Software Developer Interested in all things tech, from science applications and web development, to rendering and design. Looking for full-time, long term work".</p>
+            </a>
+        </div>
+        <div id="picDiv"></div>
     </div>
 
-    <div class="mainContainer">
-        <div class="cardsContainer">
-            <div class="card1">
-                "Full Stack Software Developer Interested in all things tech, from science applications and web development, to rendering and design. Looking for full-time, long term work".
-            </div>
-            <div class="card2">
-                • Java Core • JavaScript • CSS3 • HTML5• JSON • OOP • MVC • Restful Applications • Git • Spring • Thymeleaf • Git-Hub • H2-Databases • Blender • Substance • PhotoShop • UI/XD • InDesign • Ue5
-            </div>
-            <div class ="card3">
-                Virtual Pet Shelter • Web Resume • Retro Pong • Counus National Parks Review Site • Florida Lottery • Doughnut-Maker Web Game • Spring Boot/MVC/H2-Databases Mastery Project
-            </div>
-        </div>
-        <div class="imageDiv">
-            <img class="image" src="./images/newProPhoto-modified.png" alt="Didn't Load">
-        </div>
-        <div class="iconDiv">
-            <div class ="icon1"></div>
-            <div class ="icon2"></div>
-            <div class ="icon3"></div>
-            <div class ="icon4"></div>
-            <div class ="icon5"></div>
-            <div class ="icon6"></div>
-            <div class ="icon7"></div>
-            <div class ="icon8"></div>
-        </div>
-    </div>
     <footer>
-        <a href="https://www.linkedin.com/in/william-robson-878227223/" class="link1"></a>
-        <a href="https://github.com/WMR88/Personal-Portfolio" class="link2"></a>
-        <a href="https://www.freecodecamp.org/WMR88" class="link3"></a>
+        <div id="footerLinks">
+            <a href="https://www.linkedin.com/in/william-robson-878227223/">~ LinkedIn</a>
+            <a href="https://github.com/WMR88/Personal-Portfolio">~ Git-Hub</a>
+        </div>
     </footer>
 </body>
+<script src="/js/app.js"></script>
 </html>
-
