@@ -1,0 +1,706 @@
+/* body {
+    margin: 0;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 90%, rgba(170,170,170,1) 100%);
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 35rem;
+
+    width: 20rem;
+    text-decoration: none;
+    color: black;
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height:12rem;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    margin-left: 10rem;
+    width: 35rem;
+    height: 90%;
+
+    font-size: 64px;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 2px 2px 2px #949494;
+
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+    }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+h1:hover {
+    text-shadow: 4px 4px 4px #626262;
+}
+
+/* ------------------------------   NAV   ------------------------- */
+/* #navLinkDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 30rem;
+    height: 75%;
+}
+
+#navLinkDiv a {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+
+    color: black;
+
+    font-size: xx-large;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 4px 4px 4px #626262;
+
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+    }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+#navLinkDiv a:hover {
+    text-shadow: 4px 4px 3px #363636;
+}
+
+#navLinkDiv p {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+
+    color: black;
+
+    font-size: xx-large;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 4px 4px 4px #626262;
+
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+    }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+#navLinkDiv p:hover {
+    text-shadow: 4px 4px 3px #363636;
+}
+
+#thinkBold {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin: 0;
+    width: 44rem;
+    height: 75%;
+
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+/* -----------------------------   Middle Container   -------------------------------------------*/
+/* #middleBlockContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 42rem;
+}
+#middleBlockContainer:hover {
+    
+    background-color: rgba(255, 255, 255, 0.281);
+    
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+
+    box-shadow: 0px 0px 15px 4px #888888;
+}
+
+#techInventoryDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 80%;
+    width: 20rem;
+}
+#techInventoryDiv h2 {
+    visibility: hidden;
+}
+#techInventoryDiv #cardParagraph {
+    visibility: hidden;
+}
+#techInventoryDiv:hover {
+    box-shadow: 0px 4px 10px 3px #464646;
+
+    background-color: rgba(255, 255, 255, 0.63);
+    background-image: url("/assets/coffee-stain-transparent.png");
+    background-repeat: repeat;
+    background-size:cover;
+
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(211, 197, 181);
+}
+#techInventoryDiv:hover h2 {
+    visibility: visible;
+}
+#techInventoryDiv:hover #cardParagraph {
+    visibility: visible;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    width:90%;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px #949494;
+}
+
+#cardParagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 90%;
+    height: fit-content;
+
+    font-size: xx-large;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#picDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    width: 33rem;
+    height: 95%;
+
+    background-image: url("/assets/tuxpiPhoto.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  
+}
+
+/* ---------------------------   Projects Divider   --------------------------- */
+/* #projectsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 80%;
+    width: 20rem;
+}
+#projectsDiv h2 {
+    visibility: hidden;
+}
+#projectsDiv #cardParagraph {
+    visibility: hidden;
+}
+#projectsDiv:hover {
+    box-shadow: 0px 4px 10px 3px #464646;
+
+    background-color: rgba(255, 255, 255, 0.63);
+    background-image: url("/assets/stain2.png");
+    background-repeat: repeat;
+    background-size:cover;
+
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(211, 197, 181);
+}
+#projectsDiv:hover h2 {
+    visibility: visible;
+}
+#projectsDiv:hover #cardParagraph {
+    visibility: visible;
+}
+
+/* ---------------------------   Statment Divider   --------------------------- */
+/* #statementDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 80%;
+    width: 20rem;
+}
+#statementDiv h2 {
+    visibility: hidden;
+}
+#statementDiv #cardParagraph {
+    visibility: hidden;
+}
+#statementDiv:hover {
+    box-shadow: 0px 4px 10px 3px #464646;
+
+    background-color: rgba(255, 255, 255, 0.63);
+    background-image: url("/assets/stain3.png");
+    background-repeat: repeat;
+    background-size:cover;
+
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(211, 197, 181);
+}
+#statementDiv:hover h2 {
+    visibility: visible;
+}
+#statementDiv:hover #cardParagraph {
+    visibility: visible;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+    width: 100%;
+    height: 5rem;
+
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+
+    box-shadow: 0px 0px 15px 4px #888888;
+}
+
+#footerLinks {
+    display: flex;
+    width: 90%;
+    height: fit-content;
+    justify-content: flex-end;
+
+    margin-right: 10rem;
+}
+
+#footerLinks a {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+
+    margin-right: 3rem;
+
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+#footerLinks a:hover {
+    text-shadow: 2px 2px 2px #949494;
+}  */
+/* --------------------------------------------------------- More Info Page -------------------------------------------------------------- */
+/* --------------------------------------------------------- More Info Page -------------------------------------------------------------- */
+
+/* #moreInfoMainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    height: 46rem;
+
+    background-color: rgba(255, 255, 255, 0.151);
+    
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+
+    box-shadow: 0px 0px 15px 4px #888888;
+}
+#moreInfoMainDiv:hover {
+    box-shadow: 0px 0px 20px 4px #616161;
+    background-color: rgba(98, 120, 151, 0.233);
+}
+
+#fullTechStackCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 95%;
+    width: 20rem;
+    padding-left: 1rem;
+    margin-left: 4rem;
+
+    box-shadow: 0px 4px 10px 3px #464646;
+
+    background-color: rgba(255, 255, 255, 0.63);
+    background-image: url("/assets/stain2.png");
+    background-repeat: repeat;
+    background-size:cover;
+
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(211, 197, 181);
+}
+
+#fullTechStackCard li {
+    font-size: x-large;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 2px 2px 2px #bdbdbd;
+}
+#fullTechStackCard:hover {
+    box-shadow: 0px 4px 15px 6px #464646;
+}
+
+#cardHolder1 {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    height: 99%;
+    width: 60rem;
+}
+
+#projectsCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    height: 95%;
+
+    margin-right: 2rem;
+
+    box-shadow: 0px 4px 10px 3px #464646;
+
+    background-color: rgb(255, 255, 255);
+
+    background-repeat: repeat;
+    background-size:cover;
+
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(211, 197, 181);
+}
+#projectsCardContainer:hover {
+    box-shadow: 0px 4px 15px 6px #464646;
+    background-color: rgba(98, 120, 151, 0.233);
+}
+
+#projectCard {
+    display: flex;
+    width: 80%;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+    background-color: rgba(98, 120, 151, 0.233);
+
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(211, 197, 181);
+
+    box-shadow: 0px 2px 6px 3px #464646;
+
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+}
+#projectCard:hover {
+    box-shadow: 0px 4px 10px 3px #464646;
+    background-color: rgb(255, 255, 255);
+}
+
+#projectDescriptionDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+  
+    background-color: rgba(255, 255, 255, 0.281);
+    
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+
+    box-shadow: 0px 0px 10px 4px #888888;
+}
+#projectDescriptionDiv:hover {
+    box-shadow: 0px 4px 15px 6px #464646;
+}
+
+#projectDescription {
+    display: flex;
+
+    padding: 2rem;
+
+    margin: 0;
+    height: 15rem;
+    width: 100%;
+
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+    box-shadow: 0px 0px 10px 4px #888888;
+
+    font-size: x-large;
+    font-family: 'Cormorant Garamond', serif;
+}
+#projectDescription:hover {
+    box-shadow: 0px 4px 15px 6px #464646;
+}
+
+#projectPictureDiv {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    margin-top: 4rem;
+    height: 190rem;
+    width: 100%;
+    max-width: 100%;
+
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+    box-shadow: 0px 0px 15px 4px #888888;
+
+    background-image: url("/assets/NewPosAppPic.png");
+    background-repeat: no-repeat;
+}
+
+#projectCONUSPictureDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+    margin-top: 4rem;
+    height: 64rem;
+    width: 100%;
+    max-width: 100%;
+
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+    box-shadow: 0px 0px 15px 4px #888888;
+
+   background-image:url("/assets/conusCapture1.JPG");
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#buttonRight {
+    height: 4rem;
+    width:2rem;
+    margin-right: 3rem;
+
+    border-style: solid;
+    border-width: 1px;
+    background-color: #bdbdbda6;
+    box-shadow: 0px 0px 6px 2px #888888;
+}
+#buttonRight:hover {
+    background-color: #949494;
+    box-shadow: 0px 0px 6px 2px #525252;
+    color: white;
+}
+
+#buttonLeft {
+    height: 4rem;
+    width:2rem;
+    margin-left: 3rem;
+
+    border-style: solid;
+    border-width: 1px;
+    background-color: #bdbdbda6;
+    box-shadow: 0px 0px 6px 2px #888888;
+}
+#buttonLeft:hover {
+    background-color: #949494;
+    box-shadow: 0px 0px 6px 2px #525252;
+    color: white;
+}
+
+#projectDoggosPictureDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+    margin-top: 4rem;
+    height: 64rem;
+    width: 100%;
+    max-width: 100%;
+
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+    box-shadow: 0px 0px 15px 4px #888888;
+
+   background-image:url("/assets/doggosCapture1.JPG");
+
+    background-position: center;
+    background-repeat: no-repeat;
+}   */ 
+
