@@ -22,6 +22,14 @@
     box-shadow: 0 0 10px 5px darkslategray;
 }
 
+#MainWeekZeroCanvas2 {
+    width: 600px;
+    height: 350px;
+    max-width: 600px;
+    max-height: 350px;
+    box-shadow: 0 0 10px 5px darkslategray;
+}
+
 #CanvasSideDiv {
     display: flex;
     flex-direction: column;
@@ -56,3 +64,15 @@
 
     color: white;
 }
+
+#runButton2 {
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+
+    border-radius: 10px;
+    background-color: #4285F4;
+
+    color: white;
+}
+

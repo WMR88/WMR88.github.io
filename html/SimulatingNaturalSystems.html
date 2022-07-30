@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.2/chart.min.js" integrity="sha512-zjlf0U0eJmSo1Le4/zcZI51ks5SjuQXkU0yOdsOBubjSmio9iCUp8XPLkEAADZNBdR9crRy3cniZ65LF2w8sRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Simulating Natural Systems</title>
 </head>
     <header>
@@ -15,7 +16,7 @@
     </header>
 <body>
     <p>
-        This is an interactive workthrough of the book "Simulating Natural Systems With Processing" by Daniel Shiffman for the purpose of learning reinforcment. <br>
+        This is a workthrough of "The Nature Of Code: Simulating Natural Systems With Processing" by Daniel Shiffman for the purpose of learning reinforcment. <br>
         The code is transalted to javascript, and HTML5 canvas is used for drawing and animations. <br>
         <br>
         StartDate: 07/29/22
@@ -61,8 +62,29 @@
 
             <canvas id="MainWeekZeroCanvas"></canvas>
         </div>
+        <br>
+        <br>
+        <p>
+            Preface: Distribution of numbers: Random Distribution
+            <br>
+            A pseudo-random distribution of numbers, achived by simply using most launguage librarys random() function will generaly return a close to even <br>
+            distribution of numbers. On this canvas we will pick random numbers between 1 and 10 from javascript's Math library, and count how many times <br>
+            each number is picked. 
+            <br>
+            <br>
+            Use the "Run" button multiple time's to view new sets of randomly distributed number.
+        </p>
+        <br>
+        <div id="canvasDiv">
+            <div id="CanvasSideDiv">
+                <button id="runButton2">Run</button>
+            </div>
+
+            <canvas id="MainWeekZeroCanvas2"></canvas>
+        </div>
 
     </div>
 </body>
     <script src="/js/WeekZero.js"></script>
+    <script src="/js/RandomDistrobution.js"></script>
 </html>

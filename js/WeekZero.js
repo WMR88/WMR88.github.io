@@ -12,42 +12,25 @@ class Walker {
     }
 
     getRandomInt() {
-        return Math.floor(Math.random() * 9);
+        return Math.floor(Math.random() * 4);
     }
         
     Step() {
         var choice = this.getRandomInt();
         switch (choice) {
             case 0:
-                this.xPosition--;
-                this.yPosition--;
+                this.xPosition++;
+                ;
                 break;
             case 1:
-                this.yPosition--;
+                this.xPosition--;
                 break;
             case 2:
-                this.xPosition++;
-                this.yPosition--;
+                this.yPosition++;
                 break;
             case 3:
-                this.xPosition--;
-                break;
-            case 4:
-                console.log("No Movement")
-            case 5:
-                this.xPosition++;
-                break;
-            case 6:
-                this.xPosition--;
-                this.yPosition++;
-                break;
-            case 7:
-                this.yPosition++;
-                break;
-            case 8:
-                this.xPosition++;
-                this.yPosition++;
-                break;       
+                this.yPosition--;
+                break;     
             default:
                 console.log("Default");
         }
